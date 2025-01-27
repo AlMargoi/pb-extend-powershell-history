@@ -52,5 +52,5 @@ Dot source the PS1 file:
 
 ## Requirements
 - PowerShell 5.0+
-- PSReadLine module
+- PSReadLine module 2.0+
 
