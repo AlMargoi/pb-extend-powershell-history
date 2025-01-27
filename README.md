@@ -44,6 +44,11 @@ Invoke-FullHistory -InputHistory $extendedHistory -Filter "Git*"
 # Display commands without execution
 Invoke-FullHistory -InputHistory $extendedHistory -DoNotExecute
 ```
+## Import functions: 
+Dot source the PS1 file:
+```powershell
+. .\Extend-PowerShellHistory.ps1
+```
 
 ## Requirements
 - PowerShell 5.0+
